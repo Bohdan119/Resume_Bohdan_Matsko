@@ -1,0 +1,11 @@
+.sidebar{
+    background-color: rgb(190, 141, 141);
+    width: 500px;
+}
+
+.sidebarPhoto {
+    width: 500px;
+    height: auto;
+
+    border-radius: 5px;
+}

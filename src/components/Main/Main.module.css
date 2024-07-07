@@ -1,0 +1,7 @@
+.main{
+    width: 1200px;
+    background-color: rgb(191, 191, 191);
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 90px;
+}

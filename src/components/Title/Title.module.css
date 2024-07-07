@@ -1,0 +1,18 @@
+.title{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+color: black;
+
+border-radius: 5px;
+}
+.mainTitle{
+margin-bottom: 0;
+font-size: 80px;
+}
+.mainDirection{
+font-size: 40px;
+}
+.mainAddress{
+font-size: 30px;
+}
