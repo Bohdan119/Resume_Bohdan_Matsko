@@ -1,4 +1,4 @@
-import myPhoto from "../../Img/main_photo.jpg";
+import myPhoto from "../../Img/main-photo.jpg";
 import css from '../../components/Sidebar/Sidebar.module.css'
 
 const Sidebar = () => {
