@@ -7,12 +7,14 @@ color: black;
 border-radius: 5px;
 }
 .mainTitle{
-margin-bottom: 0;
 font-size: 80px;
+margin:5px;
 }
 .mainDirection{
 font-size: 40px;
+margin: 0;
 }
 .mainAddress{
 font-size: 30px;
+margin: 0;
 }
