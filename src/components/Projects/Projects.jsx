@@ -2,7 +2,7 @@ import css from '../../components/Projects/Projects.module.css'
 
 const Projects = () => {
   return (
-    <div>
+    <div className={css.project}>
       <h2>Projects</h2>
       <ul className={css.projectsList}>
         <li className={css.projectsItem}>

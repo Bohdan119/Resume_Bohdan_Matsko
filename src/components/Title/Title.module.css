@@ -5,6 +5,7 @@ align-items: flex-start;
 color: black;
 
 border-radius: 5px;
+border: 1px solid black;
 }
 .mainTitle{
 font-size: 80px;
