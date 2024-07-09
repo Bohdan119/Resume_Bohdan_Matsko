@@ -1,3 +1,10 @@
 .project{
     border: 1px solid black;
 }
+.projectIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    fill: currentColor;
+    background-color: aqua;
+}

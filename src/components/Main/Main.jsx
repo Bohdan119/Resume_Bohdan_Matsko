@@ -1,6 +1,7 @@
 import Title from "../Title/Title"
 import Projects from "../Projects/Projects";
 import Experience from "../Experience/Experience"
+import Education from "../Education/Education";
 
 import css from '../../components/Main/Main.module.css'
 
@@ -11,7 +12,9 @@ const Main = () => {
           <hr/>
           <Projects />
           <hr />
-          <Experience/>
+      <Experience />
+      <hr />
+      <Education/>
     </div>
   );
 }
