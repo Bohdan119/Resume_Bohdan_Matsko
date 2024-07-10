@@ -1,14 +1,12 @@
 .sidebar{
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-right: 10px;
+flex: 25%;
+margin-right: 15px;
+padding: 30px;
+border-right: 3px solid #ccc;
 }
 
 .sidebarPhoto {
-    width: 400px;
+    width: 100%;
     height: auto;
-
     border-radius: 5px;
 }

@@ -29,7 +29,7 @@ const Skills = () => {
       <div>
         <h2>LANGUAGES</h2>
         <ul>
-          <li>Ukrainian - C2</li>
+          <li>Ukrainian - Native spiker</li>
           <li>Polish - B2</li>
           <li>English - A2</li>
         </ul>

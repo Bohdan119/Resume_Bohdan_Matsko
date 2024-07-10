@@ -1,7 +1,9 @@
-import myPhoto from "../../Img/main-photo.jpg";
 import css from '../../components/Sidebar/Sidebar.module.css'
+
+import myPhoto from "../../Img/main-photo.jpg";
 import Contacts from "../Contacts/Contacts";
 import Skills from "../Skills/Skills";
+
 
 const Sidebar = () => {
   return (

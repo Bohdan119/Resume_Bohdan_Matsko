@@ -2,7 +2,7 @@ import css from '../Education/Education.module.css'
 
 const Education = () => {
   return (
-    <div className={css.education}>
+    <div className={`${css.education} container`}>
       <h2>EDUCATION</h2>
       <ul>
         <li>

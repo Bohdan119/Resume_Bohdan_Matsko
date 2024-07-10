@@ -7,10 +7,10 @@ const Contacts = () => {
       <ul className={css.contactsList}>
         <li>
           <p>
-            <a href="mailto:bm01271970@gmail.com">
               <svg className={css.contactsIcon}>
-                <use xlinkHref="/src/icons/sprite.svg#icon-mail" />
+                <use xlinkHref="/icons/sprite.svg#icon-mail" />
               </svg>
+            <a href="mailto:bm01271970@gmail.com">
               bm01271970@gmail.com
             </a>
           </p>
@@ -19,9 +19,8 @@ const Contacts = () => {
           <p>
             <a href="tel: +48883406977">
               <svg className={css.contactsIcon}>
-                <use xlinkHref="/src/icons/sprite.svg#icon-phone" />
-              </svg>:
-              +48 883 406 977
+                <use xlinkHref="/icons/sprite.svg#icon-phone" />
+              </svg>+48 883 406 977
             </a>
           </p>
         </li>
@@ -32,35 +31,35 @@ const Contacts = () => {
         <li>
           <a href="https://www.linkedin.com/feed/">
             <svg className={css.contactsIcon}>
-              <use xlinkHref="/src/icons/sprite.svg#icon-linkedin" />
+              <use xlinkHref="/icons/sprite.svg#icon-linkedin" />
             </svg>
           </a>
         </li>
         <li>
           <a href="https://github.com/Bohdan119">
             <svg className={css.contactsIcon}>
-              <use xlinkHref="/src/icons/sprite.svg#icon-github" />
+              <use xlinkHref="/icons/sprite.svg#icon-github" />
             </svg>
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/">
             <svg className={css.contactsIcon}>
-              <use xlinkHref="/src/icons/sprite.svg#icon-facebook" />
+              <use xlinkHref="/icons/sprite.svg#icon-facebook" />
             </svg>
           </a>
         </li>
         <li>
           <a href="https://t.me/bohdan_matsko">
             <svg className={css.contactsIcon}>
-              <use xlinkHref="/src/icons/sprite.svg#icon-telegram" />
+              <use xlinkHref="/icons/sprite.svg#icon-telegram" />
             </svg>
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/bohdan_matsko?igsh=MWx6dHYzbm04dGhuZg==">
             <svg className={css.contactsIcon}>
-              <use xlinkHref="/src/icons/sprite.svg#icon-instagram" />
+              <use xlinkHref="/icons/sprite.svg#icon-instagram" />
             </svg>
           </a>
         </li>

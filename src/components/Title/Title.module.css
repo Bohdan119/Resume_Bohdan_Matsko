@@ -3,13 +3,12 @@ display: flex;
 flex-direction: column;
 align-items: flex-start;
 color: black;
-
-border-radius: 5px;
-border: 1px solid black;
+box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
 }
 .mainTitle{
 font-size: 80px;
 margin:5px;
+box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
 }
 .mainDirection{
 font-size: 40px;
