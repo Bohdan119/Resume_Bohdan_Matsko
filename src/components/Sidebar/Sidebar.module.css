@@ -1,7 +1,8 @@
 .sidebar{
 flex: 25%;
 margin-right: 15px;
-border-right: 40px solid #524c4c93;
+padding: 0px 15px 0px 15px;
+border-right: 4px solid #524c4c93;
 }
 
 .sidebarPhoto {
