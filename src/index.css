@@ -25,11 +25,8 @@ body {
   display: flex;
   align-items: center;
   padding: 0 50px;
-
   margin: 50px 100px 50px 100px;
   font-family: 'Playfair Display', serif;
-
-    box-sizing: border-box;
 }
 
 .container{
@@ -86,17 +83,4 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    /* background-color: #474545; */
-  }
-  a:hover {
-    color: #747bff;
-
-  }
-  button {
-    background-color: #474545;
-  }
-}
 
