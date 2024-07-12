@@ -5,22 +5,24 @@ const Contacts = () => {
     <div className={css.contacts}>
       <h2>CONTACT INFORMATION</h2>
       <ul className={css.contactsList}>
-        <li>
+        <li className={css.contactsItem}>
           <p>
+            <a href="mailto:bm01271970@gmail.com">
               <svg className={css.contactsIcon}>
                 <use xlinkHref="/icons/sprite.svg#icon-mail" />
               </svg>
-            <a href="mailto:bm01271970@gmail.com">
               bm01271970@gmail.com
             </a>
           </p>
         </li>
-        <li>
+
+        <li className={css.contactsItem}>
           <p>
             <a href="tel: +48883406977">
               <svg className={css.contactsIcon}>
                 <use xlinkHref="/icons/sprite.svg#icon-phone" />
-              </svg>+48 883 406 977
+              </svg>
+              +48 883 406 977
             </a>
           </p>
         </li>
