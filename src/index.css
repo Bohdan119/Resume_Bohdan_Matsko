@@ -19,7 +19,7 @@
 body {
   width:calc(100%-100px);
   min-height: 1400px;
-  background-color: #efeeea;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   margin: 30px 80px 30px 80px;
@@ -43,7 +43,6 @@ a {
 
 a:hover {
   color: #0a24cd;
-  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 ul {
@@ -53,7 +52,8 @@ ul {
 h2{
 font-size: 25px;
 padding-left: 20px;
-background-color: #fff;
+background-color: #ffff;
+box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.69);
 }
 
 
