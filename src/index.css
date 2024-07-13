@@ -32,6 +32,7 @@ display: flex;
 flex-direction: column;
 box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
 margin: 20px;
+padding: 10px;
 background-color: #cecbcb;
 }
 
@@ -40,7 +41,6 @@ a {
   color: #0c0c0c;
   text-decoration: inherit;
 }
-
 a:hover {
   color: #0a24cd;
 }

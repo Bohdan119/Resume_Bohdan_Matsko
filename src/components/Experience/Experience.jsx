@@ -3,7 +3,7 @@ import css from "../../components/Experience/Experience.module.css";
 const Experience = () => {
   return (
     <div className={`${css.experience} container`}>
-      <h2>EXPERIENCE WORK</h2>
+      <h2>WORK EXPERIENCE</h2>
       <ul>
         <li>
           <h3>Courier/DPD Group</h3>

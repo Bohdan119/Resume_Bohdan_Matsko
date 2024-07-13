@@ -9,10 +9,14 @@ box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
 background-color: #ffff;
 font-size: 50px;
 margin:5px;
+padding: 0px 10px;
 border-radius: 8px;
 box-shadow: 10px 10px 25px rgba(96, 86, 86, 0.79);
 }
-
+.line{
+height:2px;
+background-color: black;
+}
 
 .mainParagraph{
 font-size: 20px;

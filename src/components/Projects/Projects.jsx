@@ -15,7 +15,6 @@ const Projects = () => {
               <use xlinkHref="/icons/sprite.svg#icon-github" />
             </svg>
           </a>
-
           <p>
             A team project in which I performed the Project section. I used
             JavaScript and the Swiper library to implement the project. The
