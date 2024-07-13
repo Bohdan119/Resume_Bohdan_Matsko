@@ -13,16 +13,17 @@ padding: 0px 10px;
 border-radius: 8px;
 box-shadow: 10px 10px 25px rgba(96, 86, 86, 0.79);
 }
-.mainParagraph{
-text-indent: 10px;
+.mainDirection{
+    width: 100%;
 }
 
 .line{
-height:2px;
-background-color: black;
+    height:2px;
+    background-color: black;
 }
 
 .mainParagraph{
-font-size: 20px;
-line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.6;
+    text-indent: 10px;
 }
