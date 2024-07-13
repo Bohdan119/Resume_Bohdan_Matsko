@@ -7,7 +7,7 @@ const Projects = () => {
       <ul className={css.projectsList}>
         <li className={css.projectsItem}>
           <a href="https://host9rror.github.io/projectJSBenders12/">
-            Resume.................................
+            Resume...................................
           </a>
 
           <a href="https://github.com/host9rror/projectJSBenders12.git">

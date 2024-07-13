@@ -7,11 +7,11 @@ const Contacts = () => {
       <ul className={css.contactsList}>
         <li className={css.contactsItem}>
           <p>
-            <a href="mailto:bm01271970@gmail.com">
+            <a href="mailto:bohdanmatsko96@gmail.com">
               <svg className={css.contactsIcon}>
                 <use xlinkHref="/icons/sprite.svg#icon-mail" />
               </svg>
-              bm01271970@gmail.com
+              bohdanmatsko96@gmail.com{" "}
             </a>
           </p>
         </li>
@@ -66,7 +66,7 @@ const Contacts = () => {
           </a>
         </li>
       </ul>
-      <p>Krakow, Poland</p>
+      <p className={css.contactAddress}>Krakow, Poland</p>
     </div>
   );
 }
