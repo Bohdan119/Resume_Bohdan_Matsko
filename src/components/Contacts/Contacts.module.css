@@ -1,13 +1,16 @@
 
 .contactsItem{
 transform-origin: center left;
-
 }
-.contactsItem:hover
+.contactsItem:hover .contactsLink,
+.contactsItem:focus .contactsLink {
+    color: #213adc;
+}
+.contactsItem:hover,
 .contactsItem:focus{
-transform:scale(1.3);
+    transform: scale(1.3);
 }
- 
+
 
 .contactsIconPost{
     width: 26px;
