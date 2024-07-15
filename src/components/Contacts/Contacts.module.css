@@ -1,15 +1,37 @@
 
+.contactsItem{
+transform-origin: center left;
+
+}
+.contactsItem:hover
+.contactsItem:focus{
+transform:scale(1.3);
+}
+ 
+
+.contactsIconPost{
+    width: 26px;
+    height: 22px;
+    fill: currentColor;
+    vertical-align:sub;
+}
+.contactsIconPost:hover{
+    transform: none;
+    filter: none;
+}
+
+.contactsIconTel{
+    width: 30px;
+    height: 25px;
+    fill: currentColor;
+}
+.contactsIconTel:hover {
+    transform: none;
+    filter: none;
+}
 
 .contactsSocial{
     display: flex;
-}
-
-.contactsIcon{
-    width: 32px;
-    height: 30px;
-    margin-right: 8px;
-    background:#f8f5f500;
-    fill: currentColor;
 }
 .contactAddress{
     padding-left: 40px;

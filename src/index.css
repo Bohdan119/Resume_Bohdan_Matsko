@@ -37,13 +37,14 @@ background-color: #cecbcb;
 }
 
 a {
-  color: #44189b;
+  color: #000;
   text-decoration:none;
   font-size: 20px;
   font-weight: 600;
+
 }
 a:hover {
-  color: #0a24cd;
+  color: #213adc;
 }
 
 ul {
@@ -67,6 +68,11 @@ h4{
   margin: 0;
 }
 
+svg{
+  width: 24px;
+  height: 24px;
+margin-right: 8px;
+}
 
 svg:hover {
   fill: #0a24cd;

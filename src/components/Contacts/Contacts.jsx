@@ -6,28 +6,26 @@ const Contacts = () => {
       <h2>CONTACT INFORMATION</h2>
       <ul className={css.contactsList}>
         <li className={css.contactsItem}>
-          <p>
-            <a href="mailto:bohdanmatsko96@gmail.com">
-              <svg className={css.contactsIcon}>
-                <use xlinkHref="/icons/sprite.svg#icon-mail" />
-              </svg>
-              bohdanmatsko96@gmail.com{" "}
-            </a>
-          </p>
+          <a
+            href="mailto:bohdanmatsko96@gmail.com"
+            className={css.contactsLink}
+          >
+            <svg className={css.contactsIconPost}>
+              <use xlinkHref="/icons/sprite.svg#icon-mail" />
+            </svg>
+            bohdanmatsko96@gmail.com{" "}
+          </a>
         </li>
 
         <li className={css.contactsItem}>
-          <p>
-            <a href="tel: +48883406977">
-              <svg className={css.contactsIcon}>
-                <use xlinkHref="/icons/sprite.svg#icon-phone" />
-              </svg>
-              +48 883 406 977
-            </a>
-          </p>
+          <a href="tel: +48883406977" className={css.contactsLink}>
+            <svg className={css.contactsIconTel}>
+              <use xlinkHref="/icons/sprite.svg#icon-phone" />
+            </svg>
+            +48 883 406 977
+          </a>
         </li>
       </ul>
-      <ul></ul>
 
       <ul className={css.contactsSocial}>
         <li>
