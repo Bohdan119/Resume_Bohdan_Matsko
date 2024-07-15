@@ -1,4 +1,6 @@
-
+.contactsTitle{
+    margin-bottom: 36px;
+}
 .contactsItem{
 transform-origin: center left;
 }

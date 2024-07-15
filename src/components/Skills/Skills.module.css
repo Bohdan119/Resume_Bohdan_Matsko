@@ -1,0 +1,9 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.skillTitle{
+    margin-bottom: 36px;
+}

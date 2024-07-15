@@ -3,7 +3,7 @@ import css from '../Contacts/Contacts.module.css'
 const Contacts = () => {
   return (
     <div className={css.contacts}>
-      <h2>CONTACT INFORMATION</h2>
+      <h2 className={css.contactsTitle}>CONTACT INFORMATION</h2>
       <ul className={css.contactsList}>
         <li className={css.contactsItem}>
           <a
