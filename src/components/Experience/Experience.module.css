@@ -1,0 +1,15 @@
+.experienceList{
+    margin-top: 0;
+}
+
+.experienceDescription{
+    margin: 0;
+    color: #4e4d52;
+    font-size: 18px;
+    font-style: oblique;
+    text-indent: 10px;
+}
+
+.experienceListDuties{
+    list-style:circle;
+}
