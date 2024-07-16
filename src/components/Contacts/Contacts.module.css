@@ -1,18 +1,10 @@
 .contactsTitle{
     margin-bottom: 36px;
 }
-.contactsItem{
-transform-origin: center left;
-}
 .contactsItem:hover .contactsLink,
 .contactsItem:focus .contactsLink {
     color: #213adc;
 }
-.contactsItem:hover,
-.contactsItem:focus{
-    transform: scale(1.3);
-}
-
 
 .contactsIconPost{
     width: 26px;
@@ -24,7 +16,6 @@ transform-origin: center left;
     transform: none;
     filter: none;
 }
-
 .contactsIconTel{
     width: 30px;
     height: 25px;
@@ -34,7 +25,6 @@ transform-origin: center left;
     transform: none;
     filter: none;
 }
-
 .contactsSocial{
     display: flex;
 }

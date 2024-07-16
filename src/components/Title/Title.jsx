@@ -8,13 +8,17 @@ const Title = () => {
       <h2 className={css.mainDirection}>
         Frontend Developer (junior) with great ambitions!
       </h2>
-        <hr className={ css.line} />
-        <span className={css.mainParagraph}>
-          Able to understand technologies from complex distillation column to
-          complex code! I aspire to develop in the field of IT, at the same time
-          I am studying English, and I am also continuing my studies at the GoIT
-          school
-        </span>
+      <hr className={css.line} />
+      <span className={css.mainParagraph}>
+        As a passionate and driven Junior Front-End Developer, I thrive on
+        solving complex challenges and pushing the boundaries of web
+        development. With a keen eye for detail and a strong commitment to
+        delivering high-quality, user-friendly applications, I excel in
+        fast-paced environments. My excellent communication skills and
+        collaborative spirit make me a valuable team player, ready to contribute
+        fresh ideas and innovative solutions. Let's build the future of the web
+        together!
+      </span>
     </div>
   );
 }

@@ -31,7 +31,7 @@ const Skills = () => {
         <h2 className={css.skillTitle}>LANGUAGES</h2>
         <ul>
           <li>English - Elementary</li>
-          <li>Ukrainian - Native spiker</li>
+          <li>Ukrainian - Native speaker</li>
           <li>Polish - Upper-Intermediate</li>
         </ul>
       </div>
