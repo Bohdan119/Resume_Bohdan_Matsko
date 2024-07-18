@@ -15,7 +15,6 @@
 
 }
 
-
 body {
   width:calc(100%-100px);
   min-height: 1400px;
@@ -33,7 +32,7 @@ body {
   padding: 10px;
   margin-bottom: 10px;
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.458);
-background-color: #cecbcb;
+  background-color: #cecbcb;
 }
 
 a {
@@ -82,4 +81,50 @@ svg:hover {
 }
 
 
+
+@media (min-width: 600px) and (max-width: 1024px)
+ {
+  body {
+    width: calc(100% - 40px);
+    margin: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  a {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  body {
+    width: calc(100% - 80px);
+    margin: 30px 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    width: calc(100% - 100px);
+    margin: 30px 80px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}
 

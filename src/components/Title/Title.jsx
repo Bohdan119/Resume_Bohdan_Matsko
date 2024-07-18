@@ -1,13 +1,37 @@
 import css from '../../components/Title/Title.module.css'
-
+import myPhoto from "../../Img/main-photo-3.jpg";
+import { useState, useEffect } from "react";
 
 const Title = () => {
+
+  const [isTablet, setIsTablet] = useState(window.innerWidth <= 768);
+  
+  useEffect(() => {
+    const handleResize = () => {
+      setIsTablet(window.innerWidth <= 768);
+    };
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <div className={`${css.title} container`}>
-      <h1 className={css.mainTitle}>BOHDAN MATSKO</h1>
-      <h2 className={css.mainDirection}>
-        Frontend Developer (junior) with great ambitions!
-      </h2>
+      <div className={css.titleTablet}>
+        {isTablet && (
+          <img src={myPhoto} alt="developer" className={css.mobilePhoto}></img>
+        )}
+
+        <div className={css.tabletTitlePresent}>
+          <h1 className={css.mainTitle}>BOHDAN MATSKO</h1>
+          <h2 className={css.mainDirection}>
+            Frontend Developer (junior) with great ambitions!
+          </h2>
+        </div>
+      </div>
+
       <hr className={css.line} />
       <span className={css.mainParagraph}>
         As a passionate and driven Junior Front-End Developer, I thrive on

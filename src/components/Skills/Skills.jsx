@@ -3,7 +3,7 @@ import css from "../Skills/Skills.module.css"
 const Skills = () => {
   return (
     <div className={css.skills}>
-      <div className={css.techSkills}>
+      <div className={`${css.techSkills} ${css.tabletContainer}`}>
         <h2 className={css.skillTitle}>TECH SKILLS</h2>
         <ul>
           <li>HTML</li>
@@ -16,7 +16,7 @@ const Skills = () => {
           <li>REST API</li>
         </ul>
       </div>
-      <div className={css.softSkills}>
+      <div className={`${css.softSkills} ${css.tabletContainer}`}>
         <h2 className={css.skillTitle}>SOFT SKILLS</h2>
         <ul>
           <li>Ambitious</li>
@@ -27,7 +27,7 @@ const Skills = () => {
           <li>Teamwork</li>
         </ul>
       </div>
-      <div>
+      <div className={css.tabletContainer}>
         <h2 className={css.skillTitle}>LANGUAGES</h2>
         <ul>
           <li>English - Elementary</li>
