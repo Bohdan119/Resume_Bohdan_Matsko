@@ -85,6 +85,7 @@ svg:hover {
   body {
       width: calc(100% - 40px);
       margin: 20px;
+      color:#000;
     }
 }
 
@@ -93,6 +94,7 @@ svg:hover {
   body {
     width: calc(100% - 40px);
     margin: 20px;
+    color:#000;
   }
 
 
