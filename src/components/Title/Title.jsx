@@ -1,5 +1,5 @@
 import css from '../../components/Title/Title.module.css'
-import myPhoto from "../../Img/main-photo-3.jpg";
+import myPhoto from "../../Img/main-photo-4.jpg";
 import { useState, useEffect } from "react";
 
 const Title = () => {
