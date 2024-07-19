@@ -107,33 +107,4 @@ svg:hover {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
-  body {
-    width: calc(100% - 80px);
-    margin: 30px 40px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  a {
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 1440px) {
-  body {
-    width: calc(100% - 100px);
-    margin: 30px 80px;
-  }
-
-  h2 {
-    font-size: 25px;
-  }
-
-  a {
-    font-size: 20px;
-  }
-}
 
