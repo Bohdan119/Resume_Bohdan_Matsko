@@ -10,6 +10,7 @@
 
 @media (max-width:768px) {
     .tabletContainer{
+    padding: 10px;
     display: flex;
     flex-direction: column;
     background-color: #cecbcb;
