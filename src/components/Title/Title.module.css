@@ -47,7 +47,7 @@ box-shadow: 10px 10px 25px rgb(96, 86, 86);
     display: block;
     width: 100px;
     height: 120px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin-bottom: 10px;
 }
 .mainTitle{
@@ -86,7 +86,7 @@ justify-content: flex-start;
 display: block;
     width: 30%;
     height: auto;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     margin-bottom: 20px;
 }
 }
