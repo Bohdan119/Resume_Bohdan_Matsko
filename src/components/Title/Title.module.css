@@ -46,7 +46,7 @@ box-shadow: 10px 10px 25px rgb(96, 86, 86);
 .mobilePhoto{
     display: block;
     width: 100px;
-    height: auto;
+    height: 120px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
