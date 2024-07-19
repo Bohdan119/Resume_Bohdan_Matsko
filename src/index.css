@@ -81,16 +81,23 @@ svg:hover {
 }
 
 
+@media (max-width: 480px){
+  body {
+      width: calc(100% - 40px);
+      margin: 20px;
+    }
+}
 
-@media (min-width: 600px) and (max-width: 1024px)
+@media (min-width:481px) and (max-width:768px)
  {
   body {
     width: calc(100% - 40px);
     margin: 20px;
   }
 
+
   h2 {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   a {

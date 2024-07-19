@@ -5,10 +5,13 @@ import { useState, useEffect } from "react";
 const Title = () => {
 
   const [isTablet, setIsTablet] = useState(window.innerWidth <= 768);
-  
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
+
+
   useEffect(() => {
     const handleResize = () => {
       setIsTablet(window.innerWidth <= 768);
+      setIsMobile(window.innerWidth <= 480);
     };
     window.addEventListener("resize", handleResize);
 
@@ -20,7 +23,7 @@ const Title = () => {
   return (
     <div className={`${css.title} container`}>
       <div className={css.titleTablet}>
-        {isTablet && (
+        {(isTablet || isMobile) && (
           <img src={myPhoto} alt="developer" className={css.mobilePhoto}></img>
         )}
 
