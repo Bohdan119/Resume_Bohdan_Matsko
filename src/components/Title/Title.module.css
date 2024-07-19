@@ -53,6 +53,9 @@ box-shadow: 10px 10px 25px rgb(96, 86, 86);
 .mainTitle{
     font-size: 20px;
 }
+.mainDirection{
+    font-size: 12px;
+}
 .mainParagraph {
     font-size: 16px;
     margin: 10px;

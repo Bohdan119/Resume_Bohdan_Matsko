@@ -12,10 +12,14 @@
     .tabletContainer{
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    margin-bottom: 10px;
     background-color: #cecbcb;
     box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.458);
     }
+
+        .skills {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
 
 }
