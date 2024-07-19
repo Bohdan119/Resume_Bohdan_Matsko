@@ -54,7 +54,7 @@ box-shadow: 10px 10px 25px rgb(96, 86, 86);
     font-size: 20px;
 }
 .mainDirection{
-    font-size: 18px;
+    font-size: 14px;
 }
 }
 
@@ -75,7 +75,7 @@ justify-content: flex-start;
 }
 
 .mainDirection{
-font-size: 18px;
+font-size: 16px;
 padding: 0px 10px;
 }
 
