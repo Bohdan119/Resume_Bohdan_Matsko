@@ -11,3 +11,8 @@ border-right: 4px solid #524c4c93;
     border-radius: 5px;
 }
 
+/* @media (min-width:769px){
+    .sidebar{
+        width: 30%;
+    }
+} */
