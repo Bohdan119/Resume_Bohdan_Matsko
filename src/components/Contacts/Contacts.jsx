@@ -64,7 +64,7 @@ const Contacts = () => {
           </a>
         </li>
       </ul>
-      <p className={css.contactAddress}>Krakow, Poland</p>
+      <p className={css.contactAddress}>Crakow, Poland</p>
     </div>
   );
 }
