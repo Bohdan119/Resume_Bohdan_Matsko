@@ -1,6 +1,6 @@
 import css from '../../components/Sidebar/Sidebar.module.css'
 
-import myPhoto from "../../Img/main-photo-3.jpg";
+import myPhoto from "../../Img/main-photo-desktop.jpg";
 import Contacts from "../Contacts/Contacts";
 import Skills from "../Skills/Skills";
 

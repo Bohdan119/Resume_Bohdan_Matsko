@@ -1,5 +1,5 @@
 import css from '../../components/Title/Title.module.css'
-import myPhoto from "../../Img/main-photo-4.jpg";
+import myPhotoMobile from "../../Img/main-photo-mobile.jpg";
 import { useState, useEffect } from "react";
 
 const Title = () => {
@@ -24,7 +24,11 @@ const Title = () => {
     <div className={`${css.title} container`}>
       <div className={css.titleTablet}>
         {(isTablet || isMobile) && (
-          <img src={myPhoto} alt="developer" className={css.mobilePhoto}></img>
+          <img
+            src={myPhotoMobile}
+            alt="developer"
+            className={css.mobilePhoto}
+          ></img>
         )}
 
         <div className={css.tabletTitlePresent}>
