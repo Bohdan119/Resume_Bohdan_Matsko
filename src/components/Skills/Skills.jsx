@@ -30,9 +30,9 @@ const Skills = () => {
       <div className={css.tabletContainer}>
         <h2 className={css.skillTitle}>LANGUAGES</h2>
         <ul>
-          <li>English - Elementary</li>
+          <li>English - A2</li>
+          <li>Polish - B2</li>
           <li>Ukrainian - Native speaker</li>
-          <li>Polish - Upper-Intermediate</li>
         </ul>
       </div>
     </div>
